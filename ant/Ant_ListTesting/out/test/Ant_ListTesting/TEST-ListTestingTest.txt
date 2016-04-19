@@ -1,0 +1,9 @@
+Testsuite: ListTestingTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0,013 sec
+
+Testcase: testAdd took 0,003 sec
+	FAILED
+expected:<1> but was:<3>
+junit.framework.AssertionFailedError: expected:<1> but was:<3>
+	at ListTestingTest.testAdd(Unknown Source)
+

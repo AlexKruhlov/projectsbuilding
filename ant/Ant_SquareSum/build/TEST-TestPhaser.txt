@@ -1,0 +1,14 @@
+Testsuite: TestPhaser
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0,022 sec
+------------- Standard Output ---------------
+25
+Phase 0(current^ java.util.concurrent.Executors$FinalizableDelegatedExecutorService@3590fc5b) is finished.
+99
+Phase 0(current^ java.util.concurrent.Executors$FinalizableDelegatedExecutorService@33d512c1) is finished.
+128
+Phase 0(current^ java.util.concurrent.Executors$FinalizableDelegatedExecutorService@639c2c1d) is finished.
+128
+Phase 0(current^ java.util.concurrent.Executors$FinalizableDelegatedExecutorService@443118b0) is finished.
+------------- ---------------- ---------------
+
+Testcase: getSquareSumTest took 0,014 sec

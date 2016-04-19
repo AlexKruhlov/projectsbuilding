@@ -1,0 +1,29 @@
+Testsuite: TestSemaphore
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6,017 sec
+------------- Standard Output ---------------
+Please, give me 4 permits!
+Sorry, but the system has 0 free permits now!
+Added 2 permits, number of permits: 2
+Please, give me 4 permits!
+Sorry, but the system has 2 free permits now!
+Added 2 permits, number of permits: 4
+Please, give me 4 permits!
+Please, take 4 permits!
+Added 2 permits, number of permits: 2
+Please, give me one permit!
+Sorry, but the system has not free permits now!
+Please, give me one permit!
+Sorry, but the system has not free permits now!
+Added one permit, number of permits: 1
+Please, give me one permit!
+Please, take the permit!
+Added one permit, number of permits: 1
+Please, give me one permit!
+Please, take the permit!
+Added one permit, number of permits: 1
+Added one permit, number of permits: 2
+Added one permit, number of permits: 3
+------------- ---------------- ---------------
+
+Testcase: testMultyThread took 3,003 sec
+Testcase: singleThread took 3,002 sec
